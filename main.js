@@ -15,11 +15,13 @@ document.body.appendChild(renderer.domElement)
 //Beginning of sphere
 const sphere = new THREE.Mesh(new THREE.SphereGeometry(5, 50, 50), 
 new THREE.ShaderMaterial({ vertexShader, 
-  fragmentShader, uniforms: { globeTexture: {
+  fragmentShader, 
+  uniforms: { 
+    globeTexture: {
 value: new THREE.TextureLoader().load('./01-3.jpg')
+      }
     }
-  }
-})
+  })
 )
 
 console.log(sphere)

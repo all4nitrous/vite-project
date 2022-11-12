@@ -4,7 +4,7 @@ varying vec2 vertexUV;
 
 void main() {
  
-    gl_FragColor =  texture2D(globeTexture, vertexUV)
+    gl_FragColor =  texture2D(globeTexture, vertexUV);
 }
 
 
