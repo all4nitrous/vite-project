@@ -10,9 +10,10 @@
   },
   "devDependencies": {
     "vite": "^3.2.3",
-    "vite-plugin-string": "^1.1.2"
+    "vite-plugin-string": "^0.0.2"
   },
   "dependencies": {
+    "rollup-pluginutils": "^2.8.2",
     "three": "^0.146.0"
   }
 }
