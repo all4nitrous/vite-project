@@ -18,7 +18,7 @@ new THREE.ShaderMaterial({ vertexShader,
   fragmentShader, 
   uniforms: { 
     globeTexture: {
-value: new THREE.TextureLoader().load('./01-3.jpg')
+value: new THREE.TextureLoader().load('./earth.jpg')
       }
     }
   })
