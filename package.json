@@ -13,6 +13,7 @@
     "vite-plugin-string": "^0.0.2"
   },
   "dependencies": {
+    "gsap": "^3.11.3",
     "rollup-pluginutils": "^2.8.2",
     "three": "^0.146.0",
     "vite-plugin-glsl": "^0.5.4"
